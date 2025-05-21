@@ -3,6 +3,7 @@ import Header from './components/Header'
 import ImageUploader from './components/ImageUploader'
 import ImageEditor from './components/ImageEditor'
 import RecentUploads from './components/RecentUploads'
+import Footer from './components/Footer'
 import { AnimatePresence } from 'framer-motion'
 
 function App() {
@@ -73,6 +74,8 @@ function App() {
           />
         )}
       </main>
+      
+      <Footer />
     </div>
   )
 }
