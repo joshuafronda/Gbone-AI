@@ -11,9 +11,8 @@ const Header = () => {
           transition={{ duration: 0.5 }}
           className="flex items-center space-x-2"
         >
-          <Logo size={40} />
           <div>
-            <h1 className="text-2xl font-bold text-primary-400">BGone</h1>
+            <h1 className="text-2xl font-bold text-primary-400">BGone AI</h1>
             <p className="text-xs text-zinc-400">Remove backgrounds instantly</p>
           </div>
         </motion.div>
@@ -36,9 +35,6 @@ const Header = () => {
           >
             Pricing
           </a>
-          <button className="btn btn-primary">
-            Sign Up Free
-          </button>
         </motion.div>
       </div>
     </header>
